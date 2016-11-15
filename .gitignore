@@ -1,5 +1,4 @@
 *.orig
 reports
 node_modules
-.env
 .log
