@@ -36,7 +36,9 @@
             "access_key": "${SAUCE_ACCESS_KEY}",
             "desiredCapabilities": {
                 "javascriptEnabled": true,
-                "acceptSslCerts": true
+                "acceptSslCerts": true,
+                "build": "build-${TRAVIS_JOB_NUMBER}",
+                "tunnel-identifier": "${TRAVIS_JOB_NUMBER}"
             }
         },
         "chrome": {
