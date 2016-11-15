@@ -10,8 +10,8 @@
 6 info test JS-Nightwatch.js@0.0.0
 7 verbose unsafe-perm in lifecycle true
 8 info JS-Nightwatch.js@0.0.0 Failed to exec test script
-9 verbose stack Error: JS-Nightwatch.js@0.0.0 test: `nightwatch --test tests/guineaPig.js`
-9 verbose stack Exit status 2
+9 verbose stack Error: JS-Nightwatch.js@0.0.0 test: `nightwatch --config nightwatch.js`
+9 verbose stack Exit status 1
 9 verbose stack     at EventEmitter.<anonymous> (/Users/leonardosouza/.nvm/versions/node/v4.4.7/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
 9 verbose stack     at emitTwo (events.js:87:13)
 9 verbose stack     at EventEmitter.emit (events.js:172:7)
@@ -27,13 +27,13 @@
 14 error node v4.4.7
 15 error npm  v2.15.8
 16 error code ELIFECYCLE
-17 error JS-Nightwatch.js@0.0.0 test: `nightwatch --test tests/guineaPig.js`
-17 error Exit status 2
-18 error Failed at the JS-Nightwatch.js@0.0.0 test script 'nightwatch --test tests/guineaPig.js'.
+17 error JS-Nightwatch.js@0.0.0 test: `nightwatch --config nightwatch.js`
+17 error Exit status 1
+18 error Failed at the JS-Nightwatch.js@0.0.0 test script 'nightwatch --config nightwatch.js'.
 18 error This is most likely a problem with the JS-Nightwatch.js package,
 18 error not with npm itself.
 18 error Tell the author that this fails on your system:
-18 error     nightwatch --test tests/guineaPig.js
+18 error     nightwatch --config nightwatch.js
 18 error You can get information on how to open an issue for this project with:
 18 error     npm bugs JS-Nightwatch.js
 18 error Or if that isn't available, you can get their info via:

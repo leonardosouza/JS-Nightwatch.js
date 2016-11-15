@@ -4,7 +4,7 @@
   "description": "Parallel tests nigtwatch  =============",
   "main": "",
   "scripts": {
-    "test": "nightwatch --test tests/guineaPig.js"
+    "test": "nightwatch --config nightwatch.js"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
