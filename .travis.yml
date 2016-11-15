@@ -6,7 +6,7 @@ node_js:
 - '4'
 - '0.12'
 install:
-  - npm install -g dotenv
+  - npm install dotenv
   - npm install -g nightwatch
 env:
   global:
