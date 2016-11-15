@@ -2,9 +2,7 @@ language: node_js
 node_js:
 - '6.9.1'
 before_install:
-- npm install n
-- sudo ./node_modules/.bin/n stable
-- rm -rf ~/.nvm
+- export | grep SAUCE_
 env:
   global:
   - SAUCE_USERNAME=learncode
