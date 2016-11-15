@@ -16,7 +16,7 @@ module.exports = {
         client
             .url('https://saucelabs.com/test/guinea-pig')
             .waitForElementVisible('body', 1000)
-            .assert.title('Banana');
+            .assert.title('I am a page title - Sauce Labs');
     },
 
     afterEach: function(client, done) {
