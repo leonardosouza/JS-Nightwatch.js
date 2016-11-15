@@ -7,10 +7,11 @@ install:
 env:
   global:
   - SAUCE_USERNAME=learncode
+  - SAUCE_ACCESS_KEY=eb089e55-b725-41d0-a65f-bcd97ea13885
 
 addons:
-  sauce_connect: true
-  jwt:
-    secure: EQIEnW4Tv40U6QMpDXiw7sGSPBMKyTovFHT1PF/55I4vv8jDT3frA7bsNulceaSBPsqlme6AXDydmC3o+DVWj/0hAbYZTuJPcGdODaVa3iR/1JPLKKFZ9K30BvonxbTng6VxiKCPbiuz3R9ddi76nnL5P3nKiu9Lm5VJrEisJvwTicaEj0M1U0AxMJ9KJrsBBa+mTx15ktChvoXcwm43DR2AusgrmVj9d9fNt/CZcGoEeutfZlsuD5TIV5CTNaOEDz9EclLoyHAEtEi2h+pj9xRaDCVesc3sPyE+KQ3bh5ZCP59iynQD9IPVeaW6CIyb+4UrQSJv2rx6zBFjk5Si6NgO/SD5K8xRRw1r/toTiEzzUnAA/k8g1Y6WTXVc1Q0QgjbPKhHKWI+2v1LWgcCfwaYh7yXmgawTgt5nQh01qmXvNcQt/GeSHUJl+zV5QM5Dw3tunfm3XOeXxefNDAFYzjaqc94GV+EXbu38YgLJFCM6btjsLjdn3Vooh+zpZ+b2U3vSgUXsyGqUGALNbHDCH6AcjDo+seEmeZXUgX3eHlub+IXzk7UqqV0VvyFPkf2r2Hni7NiR6nllipKgtaZu2aEQeaDnDnfgf60S+0nOAhb42otGSCnLD63CmT0/CqZ4AVxX8EP7WOCevowGjyAvY2heFfP2+c6rncjJxVGzYlw=
+  sauce_connect:
+    username: "learncode"
+    access_key: "eb089e55-b725-41d0-a65f-bcd97ea13885"
 script:
   - nightwatch --config nightwatch.js
