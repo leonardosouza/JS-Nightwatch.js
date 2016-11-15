@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "serve": "node server",
-    "test": "nightwatch --config nightwatch.js"
+    "test": "./run-build.sh"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
