@@ -4,7 +4,8 @@
   "description": "Parallel tests nigtwatch  =============",
   "main": "",
   "scripts": {
-    "test": "nightwatch --config nightwatch.js"
+    "serve": "node server",
+    "test": "nightwatch --config nightwatch"
   },
   "devDependencies": {
     "dotenv": "^2.0.0",
