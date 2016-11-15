@@ -9,7 +9,7 @@ node_js:
 
 install:
   - npm install dotenv
-  - npm install -g nightwatch
+  - npm install nightwatch
 
 env:
   global:
@@ -19,4 +19,4 @@ before_script:
   - npm run serve &
 
 script:
-  - nightwatch --config nightwatch.js
+  - ./node_modules/nightwatch/bin/nightwatch --config nightwatch.js
