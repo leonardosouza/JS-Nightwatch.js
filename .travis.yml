@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-- '5'
+- '4.4.7'
 install:
   - npm install dotenv
   - npm install -g nightwatch
@@ -8,5 +8,9 @@ env:
   global:
   - SAUCE_USERNAME=learncode
   - SAUCE_ACCESS_KEY=eb089e55-b725-41d0-a65f-bcd97ea13885
+addons:
+  sauce_connect:
+    username: "learncode"
+    access_key: "eb089e55-b725-41d0-a65f-bcd97ea13885"
 script:
-  - nightwatch --config nightwatch.js
+  - ./run-build.sh

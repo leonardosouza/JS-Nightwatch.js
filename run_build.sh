@@ -1,0 +1,1 @@
+nightwatch --config nightwatch.js
